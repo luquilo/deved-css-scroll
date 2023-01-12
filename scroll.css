@@ -2,5 +2,39 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    scroll-snap-align: start;
+}
+
+.container {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+    /* scroll-padding: 100px;  this one was optional*/
+}
+
+.one {
+    background: rgb(34, 164, 138);
+}
+
+.two {
+    background: rgb(211, 79, 79);
+}
+
+.three {
+    background: rgb(67, 91, 175);
+    height: 50vh;
+}
+
+.four {
+    background: lightsalmon;
+    height: 50vh;
+}
